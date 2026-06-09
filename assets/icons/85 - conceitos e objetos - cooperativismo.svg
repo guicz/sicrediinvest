@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 104 104">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #64c832;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 6px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="borda">
+    <rect class="cls-2" width="104" height="104"/>
+  </g>
+  <g id="icones">
+    <g>
+      <circle class="cls-1" cx="52" cy="52" r="44.5"/>
+      <polygon class="cls-1" points="35.68 21.95 24.13 74.83 47.23 74.83 35.68 21.95"/>
+      <line class="cls-1" x1="35.68" y1="74.83" x2="35.68" y2="93.41"/>
+      <polygon class="cls-1" points="68.32 21.95 56.77 74.83 79.87 74.83 68.32 21.95"/>
+      <line class="cls-1" x1="68.32" y1="74.83" x2="68.32" y2="93.41"/>
+    </g>
+  </g>
+</svg>

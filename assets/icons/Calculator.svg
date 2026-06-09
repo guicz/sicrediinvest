@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 104 104">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #64c832;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 6px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #64c832;
+      }
+    </style>
+  </defs>
+  <g id="borda">
+    <rect class="cls-2" width="104" height="104"/>
+  </g>
+  <g id="icones">
+    <g>
+      <rect class="cls-1" x="19.37" y="7.5" width="65.27" height="89" rx="5.27" ry="5.27"/>
+      <circle class="cls-3" cx="36.42" cy="83.89" r="3.3"/>
+      <circle class="cls-3" cx="52" cy="83.89" r="3.3"/>
+      <circle class="cls-3" cx="67.58" cy="83.89" r="3.3"/>
+      <circle class="cls-3" cx="36.42" cy="67.57" r="3.3"/>
+      <circle class="cls-3" cx="52" cy="67.57" r="3.3"/>
+      <circle class="cls-3" cx="67.58" cy="67.57" r="3.3"/>
+      <circle class="cls-3" cx="36.42" cy="51.26" r="3.3"/>
+      <circle class="cls-3" cx="52" cy="51.26" r="3.3"/>
+      <circle class="cls-3" cx="67.58" cy="51.26" r="3.3"/>
+      <path class="cls-1" d="M29.59,16.4h44.83c.73,0,1.32.59,1.32,1.32v18.13c0,.73-.59,1.32-1.32,1.32H29.59c-.73,0-1.32-.59-1.32-1.32v-18.13c0-.73.59-1.32,1.32-1.32Z"/>
+      <line class="cls-1" x1="65.69" y1="24.66" x2="65.69" y2="28.91"/>
+    </g>
+  </g>
+</svg>

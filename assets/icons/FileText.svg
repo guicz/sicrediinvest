@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 104 104">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #64c832;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 6px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="borda">
+    <rect class="cls-2" width="104" height="104"/>
+  </g>
+  <g id="icones">
+    <g>
+      <path class="cls-1" d="M69.81,41.64V12.77c0-2.91-2.36-5.27-5.27-5.27h-31.81c-.34,0-.67.13-.91.37L7.91,30.73c-.26.25-.41.59-.41.95v59.54c0,2.91,2.36,5.27,5.27,5.27h55.71"/>
+      <path class="cls-1" d="M7.5,31.12h23.38c.73,0,1.32-.59,1.32-1.32V7.5"/>
+      <circle class="cls-1" cx="69.06" cy="69.06" r="27.44"/>
+      <path class="cls-1" d="M81.26,60.2l-15.52,17.74-8.87-8.87"/>
+    </g>
+  </g>
+</svg>
