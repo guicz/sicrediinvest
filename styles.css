@@ -169,18 +169,29 @@ nav a:hover {
 }
 
 .kicker {
+  display: inline-flex;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+  min-height: 34px;
   margin: 0 0 var(--space-4);
+  padding: 7px 14px;
+  border: 1px solid rgba(63, 161, 16, 0.22);
+  border-radius: 999px;
+  background: rgba(215, 230, 200, 0.72);
   color: var(--brand-primary);
   font-family: var(--font-family-body), var(--font-family-fallback);
-  font-size: 0.86rem;
+  font-size: 0.84rem;
   font-weight: 900;
   letter-spacing: 0;
-  text-transform: uppercase;
+  line-height: 1;
 }
 
 .hero .kicker,
 .final-cta .kicker {
-  color: var(--surface-soft-green);
+  border-color: rgba(255, 255, 255, 0.28);
+  background: rgba(255, 255, 255, 0.14);
+  color: var(--color-sicredi-white);
 }
 
 h1,
