@@ -396,10 +396,10 @@ footer p {
 }
 
 .product-copy h2 {
-  max-width: 24ch;
+  max-width: 30ch;
   margin-bottom: var(--space-5);
-  font-size: clamp(2rem, 2.65vw, 2.85rem);
-  line-height: 1.08;
+  font-size: clamp(1.95rem, 2.35vw, 2.55rem);
+  line-height: 1.1;
 }
 
 .product-copy ul {
@@ -620,7 +620,7 @@ footer p {
 
 .final-cta {
   display: grid;
-  grid-template-columns: minmax(420px, 1fr) minmax(0, 0.92fr);
+  grid-template-columns: minmax(420px, 0.94fr) minmax(520px, 1.06fr);
   overflow: hidden;
   background: var(--brand-primary-dark);
 }
@@ -641,11 +641,12 @@ footer p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: clamp(56px, 8vw, 112px);
+  padding: clamp(56px, 7vw, 96px);
   color: var(--color-sicredi-white);
 }
 
 .final-content h2 {
+  max-width: 640px;
   color: var(--color-sicredi-white);
 }
 
