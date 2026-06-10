@@ -205,12 +205,6 @@ nav a:hover {
   margin-bottom: 0;
 }
 
-.product-copy .kicker-accent {
-  border-color: var(--brand-primary);
-  background: var(--brand-primary);
-  color: var(--color-sicredi-white);
-}
-
 h1,
 h2,
 h3,
@@ -500,13 +494,16 @@ footer p {
 }
 
 .legal {
-  padding: 18px 20px;
-  border-left: 4px solid var(--brand-primary);
-  border-radius: 0 12px 12px 0;
-  background: var(--surface-muted);
+  max-width: 520px;
+  margin: var(--space-3) 0 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
   color: var(--text-secondary);
-  font-size: 0.94rem !important;
+  font-size: 0.78rem !important;
   font-style: italic;
+  line-height: 1.45 !important;
 }
 
 .text-link {
