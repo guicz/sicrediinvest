@@ -457,40 +457,81 @@ footer p {
   background-image: url("./assets/icons/TrendingUp.svg");
 }
 
-.product:nth-child(2) .product-copy li:nth-child(1)::before,
-.product:nth-child(5) .product-copy li:nth-child(1)::before {
+.product:nth-child(2) .product-copy li:nth-child(1)::before {
   background-image: url("./assets/icons/71 - graficos - graf barras cresc.svg");
 }
 
-.product:nth-child(2) .product-copy li:nth-child(2)::before,
-.product:nth-child(4) .product-copy li:nth-child(3)::before {
+.product:nth-child(2) .product-copy li:nth-child(2)::before {
   background-image: url("./assets/icons/69 - graficos - grafico pizza.svg");
 }
 
-.product:nth-child(2) .product-copy li:nth-child(3)::before,
-.product:nth-child(3) .product-copy li:nth-child(1)::before {
+.product:nth-child(2) .product-copy li:nth-child(3)::before {
+  background-image: url("./assets/icons/70 - graficos - grafico porcentagem.svg");
+}
+
+.product:nth-child(2) .product-copy li:nth-child(4)::before,
+.product:nth-child(3) .product-copy li:nth-child(4)::before,
+.product:nth-child(4) .product-copy li:nth-child(5)::before {
   background-image: url("./assets/icons/44 - canais - aplicativo.svg");
 }
 
-.product:nth-child(3) .product-copy li:nth-child(2)::before {
-  background-image: url("./assets/icons/CalendarPlus.svg");
-}
-
+.product:nth-child(2) .product-copy li:nth-child(5)::before,
 .product:nth-child(3) .product-copy li:nth-child(3)::before,
-.product:nth-child(4) .product-copy li:nth-child(1)::before {
+.product:nth-child(4) .product-copy li:nth-child(4)::before {
   background-image: url("./assets/icons/80 - conceitos e objetos - objetivos metas.svg");
 }
 
-.product:nth-child(4) .product-copy li:nth-child(2)::before {
+.product:nth-child(2) .product-copy li:nth-child(6)::before,
+.product:nth-child(5) .product-copy li:nth-child(2)::before {
+  background-image: url("./assets/icons/TrendingUp.svg");
+}
+
+.product:nth-child(3) .product-copy li:nth-child(1)::before {
+  background-image: url("./assets/icons/Clock.svg");
+}
+
+.product:nth-child(3) .product-copy li:nth-child(2)::before {
   background-image: url("./assets/icons/Coins.svg");
 }
 
-.product:nth-child(5) .product-copy li:nth-child(2)::before {
-  background-image: url("./assets/icons/67 - graficos - pessoa - grafico.svg");
+.product:nth-child(3) .product-copy li:nth-child(5)::before {
+  background-image: url("./assets/icons/Users.svg");
+}
+
+.product:nth-child(3) .product-copy li:nth-child(6)::before {
+  background-image: url("./assets/icons/ShieldCheck.svg");
+}
+
+.product:nth-child(4) .product-copy li:nth-child(1)::before {
+  background-image: url("./assets/icons/Like.svg");
+}
+
+.product:nth-child(4) .product-copy li:nth-child(2)::before {
+  background-image: url("./assets/icons/Clock.svg");
+}
+
+.product:nth-child(4) .product-copy li:nth-child(3)::before {
+  background-image: url("./assets/icons/Coins.svg");
+}
+
+.product:nth-child(5) .product-copy li:nth-child(1)::before {
+  background-image: url("./assets/icons/69 - graficos - grafico pizza.svg");
 }
 
 .product:nth-child(5) .product-copy li:nth-child(3)::before {
+  background-image: url("./assets/icons/67 - graficos - pessoa - grafico.svg");
+}
+
+.product:nth-child(5) .product-copy li:nth-child(4)::before {
+  background-image: url("./assets/icons/26 - produtos - investimento.svg");
+}
+
+.product:nth-child(5) .product-copy li:nth-child(5)::before {
   background-image: url("./assets/icons/FileText.svg");
+}
+
+.product:nth-child(5) .product-copy li:nth-child(6)::before {
+  background-image: url("./assets/icons/80 - conceitos e objetos - objetivos metas.svg");
 }
 
 .legal {
@@ -646,6 +687,8 @@ footer p {
 }
 
 .final-cta figure {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
   min-height: 620px;
   margin: 0;
 }
@@ -655,6 +698,14 @@ footer p {
   height: 100%;
   object-fit: cover;
   object-position: center 34%;
+}
+
+.final-cta figure.final-people img:first-child {
+  object-position: center 38%;
+}
+
+.final-cta figure.final-people img:last-child {
+  object-position: center 42%;
 }
 
 .final-content {
