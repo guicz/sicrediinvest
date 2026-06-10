@@ -687,8 +687,6 @@ footer p {
 }
 
 .final-cta figure {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
   min-height: 620px;
   margin: 0;
 }
@@ -697,14 +695,6 @@ footer p {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 34%;
-}
-
-.final-cta figure.final-people img:first-child {
-  object-position: center 38%;
-}
-
-.final-cta figure.final-people img:last-child {
   object-position: center 42%;
 }
 
@@ -848,6 +838,10 @@ footer p {
     min-height: 420px;
   }
 
+  .final-cta figure img {
+    object-position: center 28%;
+  }
+
   footer {
     display: grid;
     justify-items: center;
@@ -880,10 +874,42 @@ footer p {
     display: none;
   }
 
+  .comparison {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  .comparison-table {
+    grid-template-rows: none;
+    gap: 14px;
+  }
+
   .row {
     grid-template-columns: 1fr;
-    gap: 8px;
-    padding: 20px;
+    gap: 14px;
+    align-items: start;
+    min-height: auto;
+    padding: 18px;
+  }
+
+  .row span[role="cell"] {
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 0.98rem;
+  }
+
+  .row span[role="cell"] img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .row strong {
+    width: auto;
+    min-height: 38px;
+    justify-self: start;
+    margin-left: 42px;
+    padding-inline: 18px;
+    font-size: 0.98rem;
   }
 
   .final-content .btn {
