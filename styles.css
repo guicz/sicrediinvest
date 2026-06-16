@@ -502,6 +502,11 @@ footer p {
   background-image: url("./assets/icons/ShieldCheck.svg");
 }
 
+.product:nth-child(3) .product-copy li:nth-child(7)::before,
+.product:nth-child(5) .product-copy li:nth-child(7)::before {
+  background-image: url("./assets/icons/ArrowRight.svg");
+}
+
 .product:nth-child(4) .product-copy li:nth-child(1)::before {
   background-image: url("./assets/icons/Like.svg");
 }
@@ -562,6 +567,17 @@ footer p {
   line-height: 1.1;
   box-shadow: 0 16px 34px rgba(63, 161, 16, 0.18);
   transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.text-link + .text-link {
+  margin-top: 12px;
+}
+
+.text-link-secondary {
+  color: var(--brand-primary-dark);
+  background: var(--surface-soft-green);
+  border-color: var(--surface-soft-green);
+  box-shadow: none;
 }
 
 .comparison {
